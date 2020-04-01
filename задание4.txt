@@ -1,0 +1,19 @@
+var s = "", s2 = "", c, c2;
+for(;;)
+{
+  s = prompt("Введите строку: ");
+  s2 = prompt("Введите 2 строку: ");
+  c = s.split("");
+  c2 = s2.split("");
+  s = funct(c, c2);
+  alert(s);
+}
+
+function funct(a, b)
+{
+  for(var i = 0; i<b.length; i++)
+    for(var j = 0; j<a.length; j++)
+      if(b[i] == a[j]) a[j] = '';
+  a = a.toString();
+  return a.replace(/,/g, "");
+}
