@@ -1,0 +1,16 @@
+var n;
+var a = new Array();
+n=parseInt(prompt("Введите n",n));
+for(var i = 0; i<n; i++) a[i] = parseFloat(prompt("Введите a" + (i+1) + ": "));
+
+function factorial(n) 
+{
+  var fact = 1;
+  for(var i = 1; i < n+1; i++) fact *= i;
+  return fact;
+}
+
+for(var i = 0;i<n;i++)
+{
+  alert("a" + (i+1) + " + " + (i+1) + "! = " + a[i] + " + " + factorial(i+1) + " = " + (a[i] + factorial(i+1))); 
+}
