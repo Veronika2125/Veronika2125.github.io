@@ -1,0 +1,30 @@
+var month = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
+var days = 0;
+for(;;)
+{
+  var year = parseInt(prompt("Введите год: "));
+  days = 5;
+  for(var i = 0; i<year; i++)
+  {
+    if((i%4 == 0 && i%100 != 0) || (i%4 == 0 && i%100 == 0 && i%400 == 0)) days += 366
+    else days += 365;
+  }
+  var mem = 0;
+  for(var i = 0; i<12; i++)
+  {
+    switch(i)
+    {
+      case 0: case 2: case 4: case 6: case 7: case 9: case 11: {mem = 31; break;}
+      case 1:
+      {
+        if(year%4 != 0) mem = 28
+        else mem = 29;
+        break;
+      }
+      case 3: case 5: case 8: case 10: {mem = 30; break;} 
+    } 
+    days += mem;
+    if(days%7 < 4) alert((mem - (3 + (days%7))) + " " + month[i] + " " + year);
+    else alert((mem - ((days%7)-4)) + " " + month[i] + " " + year); 
+  }
+}
