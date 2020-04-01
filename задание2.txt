@@ -1,0 +1,25 @@
+var m = parseInt(prompt("Введи количество строк матрицы: "));
+var n = parseInt(prompt("Введи количество столбцов матрицы: "));
+var str;
+var mas = new Array(n);
+for(var i = 0; i < m; i++) mas[i] = new Array(m);
+var b = new Array(m);
+
+for(var i = 0; i<m; i++)
+{
+  for(var j = 0; j<n; j++) mas[i][j] = parseInt(prompt("Введите mas[" + i +"][" + j + "]: "));
+}
+alert("\nМатрица: ");
+for(var i = 0; i< m; i++)
+{
+  str = "";
+  b[i] = 1;
+  for(var j = 0; j<n; j++) 
+  {
+    str += " " + mas[i][j];
+    b[i] *= mas[i][j];
+  }
+  alert(str); 
+}
+alert("");
+for(var i = 0; i<m; i++) alert("b" + (i+1) + " = " + b[i]);
