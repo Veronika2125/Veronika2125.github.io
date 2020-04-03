@@ -1,0 +1,17 @@
+var L = new Array();
+L[0] = "1"; L[1] = "x";
+
+function chet(num)
+{
+var s = "x*(" + L[num-1] + ")-(" + Math.pow((num-1), 2) + "/" + (2*num - 3)*(2*num - 1) + ")*(" + L[num-2] + ")";
+return s;
+}
+
+var text = L[0] + "+" + L[1];
+for(var i = 2; i<=6; i++)
+{
+L[i] = chet(i);
+text += "+" + L[i];
+
+}
+alert(text);

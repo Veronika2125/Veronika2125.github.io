@@ -1,0 +1,38 @@
+var L = new Array();
+L[0] = "1"; L[1] = "x";
+
+function pidr(num)
+{
+var s = "x*(" + L[num-1] + ")-(" + Math.pow((num-1), 2) + "/" + (2*num - 3)*(2*num - 1) + ")*(" + L[num-2] + ")";
+return s;
+}
+var m = parseInt(prompt("Введите кол-во растений с зелеными семидолями: ", m));
+var n = parseInt(prompt("Введите кол-во растений с желтыми семидолями: ", n));
+if(m > 0 && n > 0)
+{
+alert("\nРодитель 1: rr\tРодитель 2: Rr\nГенотип растений F1:");
+var z = m, zh = n;
+for(var i = 0; i<(m+n); i++)
+{
+if((i+1)%4 == 0)
+{
+if(zh != 0) { alert((i+1) + ") Rr"); zh--}
+else alert((i+1) + ") rr");
+}
+else
+{
+if(z != 0) { alert((i+1) + ") rr"); z--;}
+else alert((i+1) + ") Rr");
+}
+}
+}
+else if(m > 0)
+{
+alert("\nРодитель 1: rr\tРодитель 2: rr\nГенотип растений F1:");
+for(var i = 0; i<m; i++) alert((i+1) + ") rr");
+}
+else
+{
+alert("\nРодитель 1: rr\tРодитель 2: RR\nГенотип растений F1:");
+for(var i = 0; i<n; i++) alert((i+1) + ") Rr");
+}
