@@ -1,0 +1,32 @@
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\bin\Debug\client.exe.config
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\bin\Debug\client.exe
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\bin\Debug\client.pdb
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\bin\Debug\server.exe
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\bin\Debug\server.pdb
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\bin\Debug\server.exe.config
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.csprojAssemblyReference.cache
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.Form1.resources
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.frmAdd.resources
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.csproj.GenerateResource.cache
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.csproj.CopyComplete
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.exe
+C:\Users\ukuzn\Desktop\Лаба 4\client\client\obj\Debug\client.pdb
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\bin\Debug\server.exe
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\bin\Debug\server.pdb
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\bin\Debug\server.exe.config
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.csprojAssemblyReference.cache
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.Form1.resources
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.frmAdd.resources
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.frmMenu.resources
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.Properties.Resources.resources
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.csproj.GenerateResource.cache
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.exe
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.pdb
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\bin\Debug\client.exe.config
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\bin\Debug\client.exe
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\bin\Debug\client.pdb
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.csproj.CopyComplete
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.Price.resources
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.Adress.resources
+C:\Users\ukuzn\Desktop\Лаба 4 My\client\client\obj\Debug\client.Kom.resources

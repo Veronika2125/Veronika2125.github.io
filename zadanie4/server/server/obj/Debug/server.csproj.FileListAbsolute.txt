@@ -1,0 +1,12 @@
+C:\Users\ukuzn\Desktop\Лаба 4\server\server\bin\Debug\server.exe.config
+C:\Users\ukuzn\Desktop\Лаба 4\server\server\bin\Debug\server.exe
+C:\Users\ukuzn\Desktop\Лаба 4\server\server\bin\Debug\server.pdb
+C:\Users\ukuzn\Desktop\Лаба 4\server\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\ukuzn\Desktop\Лаба 4\server\server\obj\Debug\server.exe
+C:\Users\ukuzn\Desktop\Лаба 4\server\server\obj\Debug\server.pdb
+C:\Users\ukuzn\Desktop\Лаба 4 My\server\server\bin\Debug\server.exe.config
+C:\Users\ukuzn\Desktop\Лаба 4 My\server\server\bin\Debug\server.exe
+C:\Users\ukuzn\Desktop\Лаба 4 My\server\server\bin\Debug\server.pdb
+C:\Users\ukuzn\Desktop\Лаба 4 My\server\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\ukuzn\Desktop\Лаба 4 My\server\server\obj\Debug\server.exe
+C:\Users\ukuzn\Desktop\Лаба 4 My\server\server\obj\Debug\server.pdb
