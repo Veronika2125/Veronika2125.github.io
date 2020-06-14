@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://endpoint.service/" targetNamespace="http://endpoint.service/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="delDogovor" type="tns:delDogovor" />
+  <xs:element name="delDogovorResponse" type="tns:delDogovorResponse" />
+  <xs:element name="getAllTovar" type="tns:getAllTovar" />
+  <xs:element name="getAllTovarResponse" type="tns:getAllTovarResponse" />
+  <xs:element name="getNumber" type="tns:getNumber" />
+  <xs:element name="getNumberResponse" type="tns:getNumberResponse" />
+  <xs:element name="setNewDogovor" type="tns:setNewDogovor" />
+  <xs:element name="setNewDogovorResponse" type="tns:setNewDogovorResponse" />
+  <xs:complexType name="getNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getNumberResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setNewDogovor">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:table" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="table">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ispol" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="otvet" type="xs:string" />
+      <xs:element name="price" type="xs:double" />
+      <xs:element name="razmer" type="xs:double" />
+      <xs:element minOccurs="0" name="tarif" type="xs:string" />
+      <xs:element minOccurs="0" name="ysluga" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setNewDogovorResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:listOfTable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listOfTable">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="item" nillable="true" type="tns:table" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="delDogovor">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="delDogovorResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:listOfTable" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getAllTovar">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="getAllTovarResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:listOfTable" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,13 @@
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\bin\Debug\Chclient.exe.config
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\bin\Debug\Chclient.exe
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\bin\Debug\Chclient.pdb
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.csprojAssemblyReference.cache
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.Form1.resources
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.Properties.Resources.resources
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.csproj.GenerateResource.cache
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.exe
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.pdb
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.frmAdd.resources
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.Adress.resources
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.Kom.resources
+C:\Users\ukuzn\Desktop\Лаба 5\my\Chclient\Chclient\obj\Debug\Chclient.Price.resources
